@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-#title           :Network.py
-#description     :Architecture file(Generator and Discriminator)
-#author          :Deepak Birla
-#date            :2018/10/30
-#usage           :from Network import Generator, Discriminator
-#python_version  :3.5.4 
 
 # Modules
 from tensorflow.keras.layers import Lambda,GlobalAveragePooling2D,Dense,concatenate,Input,add,Reshape,LeakyReLU, PReLU,UpSampling2D,Conv2D, Conv2DTranspose,MaxPooling2D, Activation,Flatten,Lambda
